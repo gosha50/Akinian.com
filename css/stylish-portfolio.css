@@ -234,6 +234,12 @@ hr.small {
         height: 75%;
     }
 }
+/* Form */
+.form {
+    position: relative;
+    top: 80px;
+    left: 550px;
+}
 
 /* Footer */
 
