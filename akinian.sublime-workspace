@@ -64,10 +64,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "css/bootstrap.min.css",
 			"settings":
 			{
-				"buffer_size": 13660,
+				"buffer_size": 117305,
 				"line_ending": "Unix"
 			}
 		}
@@ -148,6 +148,9 @@
 	},
 	"file_history":
 	[
+		"/Users/georgeakinian/Projects/Akinian.com/index.html",
+		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.min.css",
+		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.css",
 		"/Users/georgeakinian/Projects/PHP/T-shirt_store/shirts/contact-process.php",
 		"/Users/georgeakinian/Projects/PHP/T-shirt_store/shirts/index.php",
 		"/Users/georgeakinian/Projects/PHP/T-shirt_store/shirts/shirts.php",
@@ -272,10 +275,7 @@
 		"/Users/georgeakinian/Downloads/spoiler_complete/index.html",
 		"/Users/georgeakinian/Downloads/spoiler_complete/js/app.js",
 		"/Users/georgeakinian/Projects/JS/itsatrap_complete/js/app.js",
-		"/Users/georgeakinian/Projects/JS/itsatrap_complete/css/style.css",
-		"/Users/georgeakinian/Projects/JS/itsatrap_complete/index.html",
-		"/Users/georgeakinian/Projects/JS/itsatrap_complete/img/ackbar.gif",
-		"/Users/georgeakinian/Projects/JS/project_stages/project_stage_3_end/js/app.js"
+		"/Users/georgeakinian/Projects/JS/itsatrap_complete/css/style.css"
 	],
 	"find":
 	{
@@ -298,6 +298,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bg",
 			"shirts on",
 			"shirts",
 			"on",
@@ -417,27 +418,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "css/bootstrap.min.css",
 					"settings":
 					{
-						"buffer_size": 13660,
+						"buffer_size": 117305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								117305,
+								117305
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 0.0,
+						"translation.x": 819161.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
