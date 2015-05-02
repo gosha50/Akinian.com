@@ -67,23 +67,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13760,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/bootstrap.min.css",
-			"settings":
-			{
-				"buffer_size": 117305,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".htaccess",
-			"settings":
-			{
-				"buffer_size": 1844,
+				"buffer_size": 14217,
 				"line_ending": "Unix"
 			}
 		}
@@ -165,6 +149,8 @@
 	"file_history":
 	[
 		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.min.css",
+		"/Users/georgeakinian/Projects/Akinian.com/.htaccess",
+		"/Users/georgeakinian/Projects/Akinian.com/analyticstracking.php",
 		"/Users/georgeakinian/Projects/Akinian.com/index.html",
 		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.css",
 		"/Users/georgeakinian/Projects/PHP/T-shirt_store/shirts/contact-process.php",
@@ -289,9 +275,7 @@
 		"/Users/georgeakinian/Downloads/lightbox_complete/index.html",
 		"/Users/georgeakinian/Downloads/spoiler_complete/css/style.css",
 		"/Users/georgeakinian/Downloads/spoiler_complete/index.html",
-		"/Users/georgeakinian/Downloads/spoiler_complete/js/app.js",
-		"/Users/georgeakinian/Projects/JS/itsatrap_complete/js/app.js",
-		"/Users/georgeakinian/Projects/JS/itsatrap_complete/css/style.css"
+		"/Users/georgeakinian/Downloads/spoiler_complete/js/app.js"
 	],
 	"find":
 	{
@@ -429,7 +413,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -437,75 +421,21 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 13760,
+						"buffer_size": 14217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								371,
-								323
+								13922,
+								13922
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/bootstrap.min.css",
-					"settings":
-					{
-						"buffer_size": 117305,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18557,
-								18557
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 146705.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": ".htaccess",
-					"settings":
-					{
-						"buffer_size": 1844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								845,
-								845
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
