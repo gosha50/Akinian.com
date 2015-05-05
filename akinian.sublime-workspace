@@ -67,7 +67,7 @@
 			"file": "akinian.sublime-workspace",
 			"settings":
 			{
-				"buffer_size": 15820,
+				"buffer_size": 15812,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +83,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 14758,
+				"buffer_size": 14764,
 				"line_ending": "Unix"
 			}
 		}
@@ -430,7 +430,6 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
 				{
@@ -438,7 +437,7 @@
 					"file": "akinian.sublime-workspace",
 					"settings":
 					{
-						"buffer_size": 15820,
+						"buffer_size": 15812,
 						"regions":
 						{
 						},
@@ -483,7 +482,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 14.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -493,15 +492,15 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 14758,
+						"buffer_size": 14764,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9400,
-								9400
+								14283,
+								14283
 							]
 						],
 						"settings":
@@ -510,8 +509,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 22.0,
-						"translation.y": 3977.0,
+						"translation.x": 0.0,
+						"translation.y": 4175.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
