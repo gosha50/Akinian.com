@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<?php 
+  require_once('vendor/cachebuster.php');
+    $cachebuster = new DannyNimmo\Cachebuster();
+    $cachebuster
+        ->setFileRoot(dirname(__FILE__))
+        ->setWebRoot('/');
+
+?>
+
+
+
 <html lang="en">
 
 <head>
@@ -15,13 +26,13 @@
     <title>Akinian.com</title>
  
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $cachebuster->getUrl('css/bootstrap.min.css'); ?>" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="<?php echo $cachebuster->getUrl('css/stylish-portfolio.css'); ?>" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $cachebuster->getUrl('font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -168,28 +179,28 @@
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                <!--  <a href="#"> -->
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                    <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-1.jpg"); ?>">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                <!--  <a href="#">
- -->                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+ -->                                    <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-2.jpg"); ?>">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <!-- <a href="#"> -->
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                    <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-3.jpg"); ?>">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <!-- <a href="#"> -->
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                    <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-4.jpg"); ?>">
                                 </a>
                             </div>
                         </div>
@@ -283,10 +294,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="<?php echo $cachebuster->getUrl('js/jquery.js'); ?>"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo $cachebuster->getUrl('js/bootstrap.min.js'); ?>"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
@@ -318,7 +329,8 @@
             }
         });
     });
-    !-- Google Analytics -->
+    </script>
+    <!-- Google Analytics -->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -330,7 +342,7 @@ ga('send', 'pageview');
 
 </script>
 <!-- End Google Analytics -->
-    </script>
+    
 
 </body>
 

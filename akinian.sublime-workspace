@@ -64,10 +64,26 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "akinian.sublime-workspace",
 			"settings":
 			{
-				"buffer_size": 14217,
+				"buffer_size": 15820,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".htaccess",
+			"settings":
+			{
+				"buffer_size": 2067,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 14758,
 				"line_ending": "Unix"
 			}
 		}
@@ -148,10 +164,14 @@
 	},
 	"file_history":
 	[
-		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.min.css",
-		"/Users/georgeakinian/Projects/Akinian.com/.htaccess",
-		"/Users/georgeakinian/Projects/Akinian.com/analyticstracking.php",
+		"/Users/georgeakinian/Projects/Akinian.com/index.php",
+		"/Users/georgeakinian/Projects/Akinian.com/.htaccess-bak",
 		"/Users/georgeakinian/Projects/Akinian.com/index.html",
+		"/Users/georgeakinian/Projects/Akinian.com/js/bootstrap.js",
+		"/Users/georgeakinian/Projects/Akinian.com/.htaccess",
+		"/Users/georgeakinian/Projects/Akinian.com/vendor/cachebuster.php",
+		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.min.css",
+		"/Users/georgeakinian/Projects/Akinian.com/analyticstracking.php",
 		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.css",
 		"/Users/georgeakinian/Projects/PHP/T-shirt_store/shirts/contact-process.php",
 		"/Users/georgeakinian/Projects/PHP/T-shirt_store/shirts/index.php",
@@ -271,11 +291,7 @@
 		"/Users/georgeakinian/Projects/JS/mobile_menu_complete/js/app.js",
 		"/Users/georgeakinian/Projects/JS/lightbox_complete/index.html",
 		"/Users/georgeakinian/Downloads/lightbox_complete/js/app.js",
-		"/Users/georgeakinian/Downloads/lightbox_complete/css/style.css",
-		"/Users/georgeakinian/Downloads/lightbox_complete/index.html",
-		"/Users/georgeakinian/Downloads/spoiler_complete/css/style.css",
-		"/Users/georgeakinian/Downloads/spoiler_complete/index.html",
-		"/Users/georgeakinian/Downloads/spoiler_complete/js/app.js"
+		"/Users/georgeakinian/Downloads/lightbox_complete/css/style.css"
 	],
 	"find":
 	{
@@ -298,6 +314,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$cache",
 			"bg",
 			"shirts on",
 			"shirts",
@@ -413,33 +430,88 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "akinian.sublime-workspace",
 					"settings":
 					{
-						"buffer_size": 14217,
+						"buffer_size": 15820,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13922,
-								13922
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".htaccess",
+					"settings":
+					{
+						"buffer_size": 2067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 14758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9400,
+								9400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 22.0,
+						"translation.y": 3977.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
