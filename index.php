@@ -32,8 +32,7 @@
     <link href="<?php echo $cachebuster->getUrl('css/stylish-portfolio.css'); ?>" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="<?php echo $cachebuster->getUrl('font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">
-    
+     
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -306,6 +305,15 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })(); </script>
+  <script type="text/javascript">
+    (function() {
+        var css = document.createElement('link');
+        css.href = '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css';
+        css.rel = 'stylesheet';
+        css.type = 'text/css';
+        document.getElementsByTagName('head')[0].appendChild(css);
+    })();
+</script>
     <!-- jQuery -->
     <script src="<?php echo $cachebuster->getUrl('js/jquery.js'); ?>"></script>
 
