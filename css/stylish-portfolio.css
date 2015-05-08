@@ -20,9 +20,21 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+     
 }
 
-.text-vertical-center h1 {
+
+.text-vertical-center {
+    display: none;
+}
+/*displays header only when javascript font loads*/
+.wf-active .text-vertical-center {
+    display: table-cell;
+  
+    
+}
+.text-
+-center h1 {
     margin: 0;
     padding: 0;
     font-size: 4.5em;

@@ -33,7 +33,7 @@
 
     <!-- Custom Fonts -->
     <link href="<?php echo $cachebuster->getUrl('font-awesome/css/font-awesome.min.css'); ?>" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,7 +75,7 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
+        <div class= "text-vertical-center">
             <h1>george akinian</h1>
             <h3>Web Solutions &amp; Software Architecture</h3>
             <br>
@@ -292,7 +292,20 @@
             </div>
         </div>
     </footer>
-
+    <!-- Font -->
+    <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Source+Sans+Pro:300,400,700,300italic,400italic,700italic:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
     <!-- jQuery -->
     <script src="<?php echo $cachebuster->getUrl('js/jquery.js'); ?>"></script>
 
