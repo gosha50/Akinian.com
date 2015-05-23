@@ -51,7 +51,7 @@ body {
 
 .btn-dark {
     border-radius: 0;
-    color: #E5F808;
+    color: #5FCF80;
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -187,7 +187,7 @@ hr.small {
 
 #top h1,
 #top h3 {
-    color: #FF0000;
+    color: #EBDAEB;
 }
 /* About */
 
