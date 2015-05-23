@@ -51,7 +51,7 @@ body {
 
 .btn-dark {
     border-radius: 0;
-    color: #fff;
+    color: #E5F808;
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -173,7 +173,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.123.jpg) no-repeat center center scroll;
+    background: url(../img/bg.1234.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -181,13 +181,13 @@ hr.small {
 }
 @media (min-width: 768px) {
     .header {
-        background-image: url(../img/bg-desktop.123.jpg);
+        background-image: url(../img/bg-desktop.1234.jpg);
     }
 }
 
 #top h1,
 #top h3 {
-    color: #CBAA7F;;
+    color: #FF0000;
 }
 /* About */
 
