@@ -188,8 +188,8 @@ hr.small {
 #top h1,
 #top h3 {
     color: #CEAE79;
-    font-weight: bold;
-}
+   /* font-weight: bold;
+*/}
 /* About */
 
 .about {

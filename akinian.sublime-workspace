@@ -67,22 +67,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 15385,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/stylish-portfolio.css",
-			"settings":
-			{
-				"buffer_size": 4275,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -160,9 +144,9 @@
 	},
 	"file_history":
 	[
-		"/Users/georgeakinian/Projects/Akinian.com/img/bg.jpg",
 		"/Users/georgeakinian/Projects/Akinian.com/index.php",
 		"/Users/georgeakinian/Projects/Akinian.com/css/stylish-portfolio.css",
+		"/Users/georgeakinian/Projects/Akinian.com/img/bg.jpg",
 		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.css",
 		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.min.css",
 		"/Users/georgeakinian/Projects/Akinian.com/js/bootstrap.min.js",
@@ -454,65 +438,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 15385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2676,
-								2676
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 76.0,
-						"translation.y": 1057.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/stylish-portfolio.css",
-					"settings":
-					{
-						"buffer_size": 4275,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3358,
-								3358
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2876.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
