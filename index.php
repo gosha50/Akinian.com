@@ -76,7 +76,7 @@
     <header id="top" class="header">
         <div class= "text-vertical-center">
             <h1>george akinian</h1>
-            <h3> Web Applications &amp; Software Development</h3>
+            <h3>Software Development <!--  &amp; Web Applications --></h3> 
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
@@ -87,8 +87,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>New face in Portland, handcrafting websites to your taste   </h2>
-                    <p class="lead">Turning users into raving fanatics and generating consistent leads for your business. <!-- <a target="_blank" href="http://join.deathtothestockphoto.com/">Search..</a>. --></p>
+                   <!--  <h2>New face in Portland, handcrafting websites to your taste   </h2> -->
+                   <!--  <p class="lead">Turning users into raving fanatics and generating consistent leads for your business. --> <!-- <a target="_blank" href="http://join.deathtothestockphoto.com/">Search..</a>.</p> -->
                 </div>
             </div>
             <!-- /.row -->
@@ -102,11 +102,11 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2> Web Design Services</h2>
+           <!--          <h2> Web Design Services</h2> -->
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
+                            <!-- <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
@@ -114,9 +114,9 @@
                                 <h4> 
                                     <strong> responsive applications </strong>
                                 </h4>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <!-- <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -126,8 +126,8 @@
                                     <strong> ecommerce platform</strong>
                                 </h4>
                                  
-                            </div>
-                        </div>
+                            </div> -->
+                        <!-- </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
@@ -137,9 +137,9 @@
                                 <h4>
                                     <strong> domain & hosting </strong>
                                 </h4>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <!-- <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -148,7 +148,7 @@
                                 <h4>
                                     <strong> SEO program </strong>
                                 </h4>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <!-- /.row (nested) -->
@@ -163,7 +163,7 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h2>Custom Website Request</h2>
+          <!--   <h2>Custom Website Request</h2> -->
         </div>
     </aside>
 
@@ -172,34 +172,34 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+                  <!--   <h2>Our Work</h2> -->
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                <!--  <a href="#"> -->
-                                    <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-1.jpg"); ?>">
+                                  <!--   <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-1.jpg"); ?>"> -->
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                <!--  <a href="#">
- -->                                    <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-2.jpg"); ?>">
+ -->                                   <!--  <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-2.jpg"); ?>"> -->
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <!-- <a href="#"> -->
-                                    <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-3.jpg"); ?>">
+                                    <!-- <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-3.jpg"); ?>"> -->
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <!-- <a href="#"> -->
-                                    <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-4.jpg"); ?>">
+                                   <!--  <img class="img-portfolio img-responsive" src="<?php echo $cachebuster->getUrl("img/portfolio-4.jpg"); ?>"> -->
                                 </a>
                             </div>
                         </div>
@@ -218,11 +218,11 @@
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+               <!--  <div class="col-lg-12 text-center">
                     <h3>This site is so pretty you want to look at it again!</h3>
                     <a href="#" class="btn btn-lg btn-light">Top Page!</a> or
                     <a href="#contact_2" class="btn btn-lg btn-dark">Contact!</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </aside>
@@ -245,7 +245,7 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Contact Info</strong>
                     </h4>
-                    <p>9120 Northeast Vancouver Mall Loop,<br>Vancouver, WA 98662</p>
+                   <!--  <p>9120 Northeast Vancouver Mall Loop,<br>Vancouver, WA 98662</p> -->
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (360) 609-9987</li>
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:hello@akinian.com">hello@akinian.com</a>
