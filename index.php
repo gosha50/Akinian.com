@@ -218,11 +218,11 @@
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
-               <!--  <div class="col-lg-12 text-center">
-                    <h3>This site is so pretty you want to look at it again!</h3>
+                <div class="col-lg-12 text-center">
+                    <!-- <h3>This site is so pretty you want to look at it again!</h3> -->
                     <a href="#" class="btn btn-lg btn-light">Top Page!</a> or
                     <a href="#contact_2" class="btn btn-lg btn-dark">Contact!</a>
-                </div> -->
+                </div>
             </div>
         </div>
     </aside>
