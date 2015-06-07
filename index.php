@@ -21,7 +21,7 @@
     <meta name="author" content="">
 
     <!-- This is the favicon code -->
-    <link rel="shortcut icon" href="favicon.ico" >
+    <link rel="shortcut icon" href="favicon.ico" type='image/x-icon'/>
 
     <title>Akinian.com</title>
  
