@@ -71,7 +71,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 15530,
+				"buffer_size": 15550,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +87,7 @@
 			"file": "css/bootstrap.min.css",
 			"settings":
 			{
-				"buffer_size": 117305,
+				"buffer_size": 117304,
 				"line_ending": "Unix"
 			}
 		}
@@ -318,6 +318,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"button",
+			"btn-lg",
+			"favi",
+			".h1",
 			"h2",
 			"#top",
 			"img",
@@ -441,13 +445,10 @@
 			"body",
 			">\n",
 			"\">\n",
-			"Reset",
-			"css/",
-			"css",
-			"id"
+			"Reset"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -464,7 +465,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -472,15 +473,15 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 15530,
+						"buffer_size": 15550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10670,
-								10736
+								9237,
+								9237
 							]
 						],
 						"settings":
@@ -489,8 +490,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 34.0,
-						"translation.y": 3531.0,
+						"translation.x": 74.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -507,8 +508,8 @@
 						"selection":
 						[
 							[
-								3364,
-								3364
+								946,
+								946
 							]
 						],
 						"settings":
@@ -518,7 +519,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3791.0,
+						"translation.y": 374.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -528,22 +529,22 @@
 					"file": "css/bootstrap.min.css",
 					"settings":
 					{
-						"buffer_size": 117305,
+						"buffer_size": 117304,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18231,
-								18231
+								17576,
+								17576
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 144058.0,
+						"translation.x": 138602.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

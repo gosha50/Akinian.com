@@ -1,64 +1,45 @@
-# BEGIN Compress text files
+# Kirby .htaccess
 
-Options -Indexes
-
+# rewrite rules
 <IfModule mod_rewrite.c>
 
-    RewriteEngine on
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.+)\.(\d+)\.(js|css|png|jpg|gif)$ $1.$3 [L]
+# enable awesome urls. i.e.:
+# http://yourdomain.com/about-us/team
+RewriteEngine on
+
+# make sure to set the RewriteBase correctly
+# if you are running the site in a subfolder.
+# Otherwise links or the entire site will break.
+#
+# If your homepage is http://yourdomain.com/mysite
+# Set the RewriteBase to:
+#
+# RewriteBase /mysite
+
+# block text files in the content folder from being accessed directly
+RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
+
+# block all files in the site folder from being accessed directly
+RewriteRule ^site/(.*) error [R=301,L]
+
+# block all files in the kirby folder from being accessed directly
+RewriteRule ^kirby/(.*) error [R=301,L]
+
+# make panel links work
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^panel/(.*) panel/index.php [L]
+
+# make site links work
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php [L]
 
 </IfModule>
 
-<ifModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/xml text/css text/plain
-  AddOutputFilterByType DEFLATE image/svg+xml application/xhtml+xml application/xml
-  AddOutputFilterByType DEFLATE application/rdf+xml application/rss+xml application/atom+xml
-  AddOutputFilterByType DEFLATE text/javascript application/javascript application/x-javascript application/json
-  AddOutputFilterByType DEFLATE application/x-font-ttf application/x-font-otf
-  AddOutputFilterByType DEFLATE font/truetype font/opentype
-</ifModule>
-# END Compress text files
- 
-# BEGIN Expire headers
-<ifModule mod_expires.c>
-  ExpiresActive On
-  ExpiresDefault "access plus 1 month"
-  ExpiresByType image/x-icon "access plus 1 year"
-  ExpiresByType image/jpeg "access plus 1 year"
-  ExpiresByType image/png "access plus  1 year"
-  ExpiresByType image/gif "access plus  1 year"
-  ExpiresByType application/x-shockwave-flash "access plus  1 year"
-  ExpiresByType text/css "access plus  1 year"
-  ExpiresByType text/javascript "access plus 1 year"
-  ExpiresByType application/javascript "access plus 1 year"
-  ExpiresByType application/x-javascript "access plus 1 year"
-  ExpiresByType text/html "access plus 10 minutes"
-  ExpiresByType application/xhtml+xml "access plus 1 year"
-
-</ifModule>
-# END Expire headers
- 
-# BEGIN Cache-Control Headers
-<ifModule mod_headers.c>
-  <filesMatch ".(ico|jpe?g|png|gif|swf)$">
-    Header set Cache-Control "public"
-  </filesMatch>
-  <filesMatch ".(css)$">
-    Header set Cache-Control "public"
-  </filesMatch>
-  <filesMatch ".(js)$">
-    Header set Cache-Control "private"
-  </filesMatch>
-  <filesMatch ".(x?html?|php)$">
-    Header set Cache-Control "private, must-revalidate"
-  </filesMatch>
-</ifModule>
-# END Cache-Control Headers
- 
-# BEGIN Turn ETags Off
-FileETag None
-# END Turn ETags Off
-
-
+# Additional recommended values
+# Remove comments for those you want to use.
+#
+# AddDefaultCharset UTF-8
+#
+# php_flag short_open_tag on
