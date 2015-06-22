@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 
-
-
-
 <html lang="en">
 
 <head>
@@ -19,13 +16,11 @@
     <title>Akinian.com</title>
  
     <!-- Bootstrap Core CSS -->
-      <?php echo css('assets/css/bootstrap.min.css') ?>
-
-
+     
+    <?php echo css('assets/css/bootstrap.min.css') ?>
     <!-- Custom CSS -->
-          <?php echo css('assets/css/stylish-portfolio.css') ?>
-
-
+     
+    <?php echo css('assets/css/stylish-portfolio.css') ?>
     <!-- Custom Fonts -->
      
 

@@ -1,4 +1,4 @@
- <!-- Footer -->
+  <!-- Footer -->
     <footer id="contact_2">
         <div class="container">
             <div class="row">
@@ -75,10 +75,10 @@
     })();
 </script>
     <!-- jQuery -->
-          <?php echo js('assets/js/jquery.js') ?>
+    <?php echo js('assets/js/jquery.js'); ?>
 
     <!-- Bootstrap Core JavaScript -->
-          <?php echo js('assets/js/bootstrap.min.js') ?>
+    <?php echo js('assets/js/bootstrap.min.js'); ?>
 
     <!-- Custom Theme JavaScript -->
     <script>
@@ -128,17 +128,3 @@ ga('send', 'pageview');
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    

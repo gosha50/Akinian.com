@@ -1,6 +1,7 @@
-<?php snippet('my_header') ?>
+ <?php snippet('my_header') ?>
 
-   <?php //snippet('shit-not-want') ?>
+  <!-- About (find it in snippets in not_active_sections-->
+    
 
     <!-- Map -->
     <section id="contact" class="map">
@@ -12,6 +13,4 @@
         </iframe>
        <!-- https://www.google.com/maps/place/9120+NE+Vancouver+Mall+Loop,+Vancouver,+WA+98662/@45.6599517,-122.5789116,17z/data=!3m1!4b1!4m2!3m1!1s0x5495afe938cce8d3:0xf1b7084a7c2a1a10 -->
     </section>
-    
-   
 <?php snippet('my_footer') ?>
