@@ -75,10 +75,10 @@
     })();
 </script>
     <!-- jQuery -->
-    <script src="<?php echo $cachebuster->getUrl('js/jquery.js'); ?>"></script>
+    <?php echo js('assets/js/jquery.js'); ?>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="<?php echo $cachebuster->getUrl('js/bootstrap.min.js'); ?>"></script>
+    <?php echo js('assets/js/bootstrap.min.js'); ?>
 
     <!-- Custom Theme JavaScript -->
     <script>
