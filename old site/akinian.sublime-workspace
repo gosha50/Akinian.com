@@ -318,6 +318,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"body",
 			"button",
 			"btn-lg",
 			"favi",
@@ -444,11 +445,10 @@
 			"value ",
 			"body",
 			">\n",
-			"\">\n",
-			"Reset"
+			"\">\n"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -465,7 +465,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -480,8 +480,8 @@
 						"selection":
 						[
 							[
-								9237,
-								9237
+								0,
+								15550
 							]
 						],
 						"settings":
@@ -490,8 +490,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 74.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 953.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -518,8 +518,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 374.0,
+						"translation.x": 4.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -73,6 +73,6 @@
             <h1>george akinian</h1>
             <h3>Software Development <!--  &amp; Web Applications --></h3> 
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <a href="#contact" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
     </header>
