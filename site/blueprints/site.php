@@ -18,3 +18,10 @@ fields:
   copyright:
     label: Copyright
     type:  textarea
+  phone:
+    label: phone
+    type:  hidden
+  email:
+    label: email
+    type:  hidden
+ 

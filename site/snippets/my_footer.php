@@ -7,8 +7,8 @@
                     </h4>
                    <!--  <p>9120 Northeast Vancouver Mall Loop,<br>Vancouver, WA 98662</p> -->
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (360) 609-9987</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:hello@akinian.com">hello@akinian.com</a>
+                        <li><i class="fa fa-phone fa-fw"></i> <?php echo $site->phone()->html() ?></li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:hello@akinian.com"><?php echo $site->email()->html() ?></a>
                         </li>
                     </ul>
                     <br>
@@ -46,7 +46,9 @@
 <i class="fa fa-cog fa-spin"></i>
                     
                       <hr class="small">
-                    <p class="text-muted">Copyright &copy; akinian.com 2015</p>
+
+
+                    <p class="text-muted"><?php echo $site->copyright()->kirbytext() ?></p>
                 </div>
             </div>
         </div>

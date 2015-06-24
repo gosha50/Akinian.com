@@ -1,17 +1,25 @@
-Title: Kirby Starterkit
+Title: akinian
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: george akinian
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Software Developer
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Kirby,CMS,file-based
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Phone: (360) 609-9987
+
+----
+
+Email: hello@akinian.com
+
+----
+
+Copyright: © (date: Year) akinian.com

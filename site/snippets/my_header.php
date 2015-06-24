@@ -13,7 +13,7 @@
     <!-- This is the favicon code -->
    <!--  <link rel="shortcut icon" href="favicon.ico" type='image/x-icon'/> -->
 
-    <title>Akinian.com</title>
+    <title><?php echo $site->title()?>  </title>
  
     <!-- Bootstrap Core CSS -->
      
@@ -65,8 +65,8 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class= "text-vertical-center">
-            <h1>george akinian</h1>
-            <h3>Software Development <!--  &amp; Web Applications --></h3> 
+            <h1><?php echo $site->author()->html() ?></h1>
+            <h3><?php echo $site->description()->html() ?></h3> 
             <br>
             <a href="#contact" class="btn btn-dark btn-lg">Find Out More</a>
         </div>

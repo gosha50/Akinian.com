@@ -1,49 +1,5 @@
   <!-- Footer -->
-    <footer id="contact_2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Contact Info</strong>
-                    </h4>
-                   <!--  <p>9120 Northeast Vancouver Mall Loop,<br>Vancouver, WA 98662</p> -->
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (360) 609-9987</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:hello@akinian.com">hello@akinian.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <p> </p>
-                    <ul class="list-inline">
-                        <li>
-                         <a href="https://www.linkedin.com/profile/edit?trk=nav_responsive_sub_nav_edit_profile/"><i class="fa fa-linkedin fa-fw fa-3x">
-                         </i>
-                        <li>
-                            <a href="https://twitter.com/GeorgeAkinian"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                         <li>
-                            <a href="https://www.facebook.com/George.Akinian"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://dribbble.com/"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                        
-                         <li>
-                            <a href="https://github.com/gosha50"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.pinterest.com/GeorgeAkinian/"><i class="fa fa-pinterest fa-fw fa-3x"></i></a>
-                        </li>
-                         <li>
-                            <a href="https://instagram.com/georgeakinian/"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-            
-
-           <!-- Rotating Icons -->   
-<i class="fa fa-spinner fa-spin"></i>
-<i class="fa fa-circle-o-notch fa-spin"></i>
-<i class="fa fa-refresh fa-spin"></i>
-<i class="fa fa-cog fa-spin"></i>
+ 
                     
                       <hr class="small">
                     <p class="text-muted">Copyright &copy; akinian.com 2015</p>
