@@ -2,6 +2,14 @@
 
   <!-- About (find it in snippets in not_active_sections-->
     
+<!-- Video -->
+ 
+
+
+
+<!-- End Video -->
+
+
 
     <!-- Map -->
     <section id="contact" class="map">

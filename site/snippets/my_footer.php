@@ -124,8 +124,13 @@ ga('create', 'UA-62537419-1', 'auto');
 ga('send', 'pageview');
 
 </script>
+
+
+ 
 <!-- End Google Analytics -->
-    
+    <!-- Weinre Dev Tool for any browser  -->
+<script src="http://localhost:8080/target/target-script-min.js"></script>
+
 
 </body>
 
