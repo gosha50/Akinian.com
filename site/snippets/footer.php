@@ -26,7 +26,7 @@
                     </ul>
                 
                       <hr class="small">
-                    <p class="text-muted">Copyright &copy; akinian.com 2015</p>
+                    <p class="text-muted">Copyright &copy; <?php echo $page->copyright()->html() ?></p>
                 </div>
             </div>
         </div>
