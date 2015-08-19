@@ -38,7 +38,7 @@ Copyright: Akinian.com 2015
 
 ----
 
-Website-request-image: 
+Website-request-image: callout.jpg
 
 ----
 

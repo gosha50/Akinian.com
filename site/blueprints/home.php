@@ -45,9 +45,4 @@ fields:
     mode:  single
     types: 
       - image
-website_request_image:
-    label: website request image
-    type:  selector
-    mode:  single
-    types: 
-      - image
+ 

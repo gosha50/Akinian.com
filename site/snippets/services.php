@@ -63,8 +63,54 @@
     </section>
 
         <!-- Callout -->
-    <aside class="callout">
+    <aside class="callout" style="background: url(<?php echo $page->file($page->website_request_image())->url() ?>) no-repeat center center scroll;">
+
         <div class="text-vertical-center">
             <h1>Costom Website Request</h1>
         </div>
     </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
