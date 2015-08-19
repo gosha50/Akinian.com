@@ -34,7 +34,7 @@
 <?php snippet('menu') ?>
     
     <!-- Header -->
-    <header id="top" class="header">
+    <header id="top" class="header" style="background: url(<?php echo $page->file($page->hero_image())->url() ?>) no-repeat center center scroll;">
         <div class="text-vertical-center">
             <h1><?php echo $page->User()->html() ?></h1>
             <h3><?php echo $page->Intro()->html() ?></h3>

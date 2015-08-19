@@ -31,3 +31,15 @@ Email: info@akinian.com
 ----
 
 User: Akinian
+
+----
+
+Copyright: Akinian.com 2015
+
+----
+
+Website-request-image: 
+
+----
+
+Hero-image: bg.jpg

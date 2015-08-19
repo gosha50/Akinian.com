@@ -3,7 +3,6 @@
 title: Home
 pages: false
 fields:
-fields:
   title:
     label: Title
     type:  text
@@ -16,7 +15,6 @@ fields:
   text:
     label: Text
     type:  textarea
-
   subtext:
     label: Subtext
     type:  textarea
@@ -32,5 +30,24 @@ fields:
   email:
     label: Email
     type:  email
-            
-       
+  copyright:
+    label: Copyright
+    type:  text
+  hero_image:
+    label: hero image
+    type:  selector
+    mode:  single
+    types: 
+      - image
+ website_request_image:
+    label: website request image
+    type:  selector
+    mode:  single
+    types: 
+      - image
+website_request_image:
+    label: website request image
+    type:  selector
+    mode:  single
+    types: 
+      - image
