@@ -7,12 +7,16 @@ fields:
   title:
     label: Title
     type:  text
+  user:
+    label: user
+    type:  text
+  intro:
+    label: Intro
+    type:  text
   text:
     label: Text
     type:  textarea
-  intro:
-    label: Intro
-    type:  textarea
+
   subtext:
     label: Subtext
     type:  textarea
@@ -24,9 +28,9 @@ fields:
     type:  textarea
   phone:
     label: Phone
-    type:  textarea
+    type:  tel
   email:
     label: Email
-    type:  textarea
+    type:  email
             
        

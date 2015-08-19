@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Akinian.com</title>
+    <title><?php echo $page->title()->html() ?></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1><?php echo $page->title()->html() ?></h1>
+            <h1><?php echo $page->User()->html() ?></h1>
             <h3><?php echo $page->Intro()->html() ?></h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>

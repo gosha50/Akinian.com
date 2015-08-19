@@ -1,12 +1,12 @@
-Title: George Akinian
-
-----
-
-Text: New face in Portland, handcrafting websites to your taste
+Title: Akinian.com
 
 ----
 
 Intro: Web Applications
+
+----
+
+Text: New face in Portland, handcrafting websites to your taste
 
 ----
 
@@ -27,3 +27,7 @@ Phone: (360) 609-9987
 ----
 
 Email: info@akinian.com
+
+----
+
+User: Akinian
