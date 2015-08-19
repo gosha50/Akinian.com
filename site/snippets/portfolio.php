@@ -7,34 +7,17 @@
                     <h2>Our Work</h2>
                     <hr class="small">
                     <div class="row">
+                        <?php foreach ($page->our_work_images()->toStructure() as $item): ?> 
+
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="/assets/images/portfolio-1.jpg">
+                                    <img class="img-portfolio img-responsive" src="<?php echo $page->file($item->image())->url() ?>">
+                                    
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="/assets/images/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="/assets/images/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="/assets/images/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
+                           <?php endforeach ?>
                     </div>
                     <!-- /.row (nested) -->
                    <!--  <a href="#" class="btn btn-dark">View More Items</a> -->

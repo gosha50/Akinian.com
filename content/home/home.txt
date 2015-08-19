@@ -38,8 +38,25 @@ Copyright: Akinian.com 2015
 
 ----
 
-Website-request-image: callout.jpg
+Website-request-image: bg.jpg
 
 ----
 
 Hero-image: bg.jpg
+
+----
+
+Our-work-images: 
+
+- 
+  image: bg.jpg
+- 
+  image: img_2109.jpg
+- 
+  image: img_2109.jpg
+- 
+  image: bg.jpg
+- 
+  image: bg.jpg
+- 
+  image: bg.jpg

@@ -39,10 +39,20 @@ fields:
     mode:  single
     types: 
       - image
- website_request_image:
+  website_request_image:
     label: website request image
     type:  selector
     mode:  single
     types: 
       - image
- 
+  our_work_images:
+    label: our work images
+    type:  structure
+    fields: 
+      image:
+        label: image
+        type: selector
+        mode: single
+        types: 
+          - image
+
