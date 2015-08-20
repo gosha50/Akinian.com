@@ -49,14 +49,14 @@ Hero-image: bg.jpg
 Our-work-images: 
 
 - 
-  image: bg.jpg
+  image: angular.jpg
 - 
-  image: img_2109.jpg
+  image: framework.jpg
 - 
-  image: img_2109.jpg
+  image: nodejs.jpg
 - 
-  image: bg.jpg
+  image: screen.jpg
 - 
-  image: bg.jpg
+  image: desk.jpg
 - 
-  image: bg.jpg
+  image: portfolio-3.jpg
