@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"work",
+				"our_work_images"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
 				"borderr",
 				"border-color"
 			],
@@ -95,7 +103,7 @@
 			"file": "site/blueprints/home.php",
 			"settings":
 			{
-				"buffer_size": 470,
+				"buffer_size": 1104,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,7 +111,31 @@
 			"file": "content/home/home.txt",
 			"settings":
 			{
-				"buffer_size": 424,
+				"buffer_size": 769,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/snippets/menu.php",
+			"settings":
+			{
+				"buffer_size": 988,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/snippets/footer.php",
+			"settings":
+			{
+				"buffer_size": 2801,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/templates/home.php",
+			"settings":
+			{
+				"buffer_size": 194,
 				"line_ending": "Unix"
 			}
 		},
@@ -111,7 +143,7 @@
 			"file": "site/snippets/header.php",
 			"settings":
 			{
-				"buffer_size": 1550,
+				"buffer_size": 1685,
 				"line_ending": "Unix"
 			}
 		}
@@ -192,22 +224,25 @@
 	},
 	"file_history":
 	[
-		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/about.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/templates/home.php",
 		"/Users/georgeakinian/Projects/Akinian.com/site/templates/default.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/blueprints/default.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/header.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/portfolio.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/footer.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/plugins/index.html",
-		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/services.php",
 		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/map.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/about.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/footer.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/templates/home.php",
+		"/Users/georgeakinian/Projects/Akinian.com/index.php",
+		"/Users/georgeakinian/Projects/Akinian.com/akinian.kirby.sublime-workspace",
+		"/Users/georgeakinian/Projects/Akinian.com/kirby/readme.md",
+		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/portfolio.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/services.php",
+		"/Users/georgeakinian/Projects/Akinian.com/assets/css/stylish-portfolio.css",
+		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/header.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/blueprints/default.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/plugins/index.html",
 		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/map",
 		"/Users/georgeakinian/Downloads/kirby-2.1.1/site/templates/default.php",
 		"/Users/georgeakinian/Downloads/kirby-2.1.1/site/templates/projects.php",
 		"/Users/georgeakinian/Downloads/kirby-2.1.1/content/home/home.txt",
 		"/Users/georgeakinian/Downloads/kirby-2.1.1/content/3-contact/contact.txt",
-		"/Users/georgeakinian/Projects/Akinian.com/assets/css/stylish-portfolio.css",
 		"/Users/georgeakinian/Projects/Akinian.com/old site/js/main.js",
 		"/Users/georgeakinian/Projects/Akinian.com/old site/README.md",
 		"/Users/georgeakinian/Projects/Akinian.com/assets/js/bootstrap.min.js",
@@ -240,7 +275,6 @@
 		"/Users/georgeakinian/Downloads/2-5/start/my-styles.css",
 		"/Users/georgeakinian/Projects/PHP/htdocs/index.php",
 		"/Users/georgeakinian/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/georgeakinian/Projects/Akinian.com/index.php",
 		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.css",
 		"/Users/georgeakinian/Projects/Akinian.com/css/stylish-portfolio.css",
 		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.min.css",
@@ -317,9 +351,7 @@
 		"/Users/georgeakinian/Projects/sass/3-interpolation-and-if-else/start/main.css",
 		"/Users/georgeakinian/Projects/sass/2-working-with-media-queries/start/main.css",
 		"/Users/georgeakinian/Projects/sass/1-debugging-sass/start/main.css",
-		"/Users/georgeakinian/Downloads/4-sass-functions/start/main.scss",
-		"/Users/georgeakinian/Downloads/1-creating-a-color-pallet/start/main.css",
-		"/Users/georgeakinian/Downloads/4-extending-selectors/start/main.css"
+		"/Users/georgeakinian/Downloads/4-sass-functions/start/main.scss"
 	],
 	"find":
 	{
@@ -498,20 +530,22 @@
 					"file": "site/blueprints/home.php",
 					"settings":
 					{
-						"buffer_size": 470,
+						"buffer_size": 1104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								649,
+								649
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -530,15 +564,15 @@
 					"file": "content/home/home.txt",
 					"settings":
 					{
-						"buffer_size": 424,
+						"buffer_size": 769,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								527,
+								527
 							]
 						],
 						"settings":
@@ -546,25 +580,31 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 921.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
 				{
 					"buffer": 2,
-					"file": "site/snippets/header.php",
+					"file": "site/snippets/menu.php",
 					"settings":
 					{
-						"buffer_size": 1550,
+						"buffer_size": 988,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1429,
-								1429
+								355,
+								355
 							]
 						],
 						"settings":
@@ -573,8 +613,98 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 11.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "site/snippets/footer.php",
+					"settings":
+					{
+						"buffer_size": 2801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "site/templates/home.php",
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "site/snippets/header.php",
+					"settings":
+					{
+						"buffer_size": 1685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 19.0,
+						"translation.y": 76.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -605,17 +735,30 @@
 				0,
 				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.685307303473,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.415274192475,
 			1.0
 		]
 	},
@@ -653,6 +796,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 210.0,
+	"side_bar_width": 142.0,
 	"status_bar_visible": true
 }
