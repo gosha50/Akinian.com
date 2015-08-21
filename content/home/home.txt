@@ -18,7 +18,23 @@ Upsite: This site is so pretty you want to look at it again!
 
 ----
 
-Address: 9120 Northeast Vancouver Mall Loop,<br>Vancouver, WA 98662
+Address: 9120 NE Vancouver Mall Loop
+
+----
+
+City: Vancouver
+
+----
+
+State: WA
+
+----
+
+Zip: 98662
+
+----
+
+Country: US
 
 ----
 
@@ -38,7 +54,7 @@ Copyright: Akinian.com 2015
 
 ----
 
-Website-request-image: bg.jpg
+Website-request-image: bg_suburb1.jpg
 
 ----
 

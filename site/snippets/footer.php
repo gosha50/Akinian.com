@@ -6,7 +6,8 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Contact Info</strong>
                     </h4>
-                    <p><?php echo $page->Address()->html() ?></p>
+                    <p><?php echo $page->Address()->html() ?><br><?php echo $page->City()->html() ?>, <?php echo $page->State()->html() ?>  <?php echo $page->Zip()->html() ?>, <?php echo $page->Country()->html() ?>.</p>
+
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> <?php echo $page->phone()->html() ?></li>
                         <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@akinian.com"><?php echo $page->email()->html() ?></a>

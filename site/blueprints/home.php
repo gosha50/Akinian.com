@@ -23,7 +23,19 @@ fields:
     type:  textarea
   address:
     label: Address
-    type:  textarea
+    type:  text
+  city:
+    label: City
+    type:  text
+  state:
+    label: State
+    type:  text
+  zip:
+    label: Zip code
+    type:  text
+  Country:
+    label: country
+    type:  text
   phone:
     label: Phone
     type:  tel
@@ -51,8 +63,8 @@ fields:
     fields: 
       image:
         label: image
-        type: selector
-        mode: single
+        type:  selector
+        mode:  single
         types: 
           - image
 
