@@ -30,6 +30,7 @@ body {
 }
  
 /* Custom Button Styles */
+<<<<<<< HEAD
 
  
 
@@ -37,6 +38,9 @@ a{
     color: white;
 }
 
+=======
+ 
+>>>>>>> master
 .btn-dark {
     border-radius: 0;
     color: #fff;
@@ -46,21 +50,36 @@ a{
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
+<<<<<<< HEAD
     color: white;
+=======
+    color: #fff;
+>>>>>>> master
     background-color: transparent;
 }
 
 /*.btn-light {
     border-radius: 0;
+<<<<<<< HEAD
     color: #333;
     background-color: transparent;
 }*/
+=======
+    color: #fff;
+    background-color: transparent;
+}
+>>>>>>> master
 
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
+<<<<<<< HEAD
     color: white;
     background-color:  transparent;
+=======
+    color: #fff;
+    background-color: transparent;
+>>>>>>> master
 }
 
 /* Custom Horizontal Rule */
