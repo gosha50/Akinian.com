@@ -34,13 +34,11 @@ body {
 
  
 
-a{
-    color: white;
-}
+
  
 .btn-dark {
     border-radius: 0;
-    color: #fff;
+    color: #B1B1B1;
     background-color: transparent;
 }
 
@@ -49,14 +47,14 @@ a{
 .btn-dark:active {
 
     color: white;
-    color: #fff;
+    color: #B1B1B1;
     background-color: transparent;
 }
 
 .btn-light {
     border-radius: 0;
 
-    color: #fff;
+    color: #B1B1B1;
     background-color: transparent;
 }
 
@@ -67,7 +65,7 @@ a{
 
     color: white;
     background-color:  transparent;
-    color: #fff;
+    color: #B1B1B1;
     background-color: transparent;
 }
 
