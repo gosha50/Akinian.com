@@ -1,4 +1,5 @@
- <?php snippet('header') ?>
+ 
+<?php snippet('header') ?>
 <?php snippet('about') ?>
     
 
@@ -8,5 +9,7 @@
         <?php snippet('map') ?>
  
      <?php snippet('footer') ?>
+
+
 
 
