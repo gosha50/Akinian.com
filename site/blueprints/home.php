@@ -21,27 +21,38 @@ fields:
   upsite:
     label: Upsite
     type:  textarea
-  address:
+  addressHeadline:
     label: Address
+    type: headline
+  address:
+    label: Street
     type:  text
   city:
     label: City
     type:  text
+    width: 1/2
   state:
-    label: State
+    label: State/Province
     type:  text
+    width: 1/4
   zip:
     label: Zip code
     type:  text
+    width: 1/4
   Country:
     label: country
     type:  text
+  contactHeadlin:
+    label: Contact
+    type: headline  
   phone:
     label: Phone
     type:  tel
   email:
     label: Email
     type:  email
+  line:
+    type: line
   copyright:
     label: Copyright
     type:  text
@@ -51,6 +62,7 @@ fields:
     mode:  single
     types: 
       - image
+    help: image filename must contain the string "background"
   website_request_image:
     label: website request image
     type:  selector
@@ -67,4 +79,26 @@ fields:
         mode:  single
         types: 
           - image
-
+  accounts:
+    label: Social Network
+    type:  structure
+    fields:
+      
+      social :
+        label: Social Network
+        type: select
+        default: architecture 
+        options: 
+          twitter:  twitter
+          facebook: facebook
+          github: github
+          pinterest: pinterest
+          instagram: instagram
+          rss: rss
+          flickr:  flickr
+          dribble: dribble
+          bolt: bolt
+          linkedin: linked in
+      url:
+        label: Profile URL
+        type:  text

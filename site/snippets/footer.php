@@ -17,12 +17,19 @@
                     <p> </p>
                     <ul class="list-inline">
                        
-                        <li>
-                            <a href="https://twitter.com/GeorgeAkinian"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                          <li>
-                            <a href="https://github.com/gosha50"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                        </li>
+
+                        <?php foreach ($page->accounts()->toStructure() as $account): // toStructure makes structure a kirby object which makes it possible to use kirbies chaining syntax http://getkirby.com/docs/cheatsheet/field-methods/toStructure ?>  
+
+                            <li>
+                                <a href="<?php echo $account->url()->html() ?>">
+                                    <i class="fa fa-<?php echo $account->social()->html() ?> fa-fw fa-3x"></i>
+                                </a>
+                            </li>
+
+                        <?php endforeach; ?>
+
+
+    
                      
                     </ul>
                 

@@ -76,3 +76,18 @@ Our-work-images:
   image: desk.jpg
 - 
   image: portfolio-3.jpg
+
+----
+
+Accounts: 
+
+- 
+  social: github
+  url: https://github.com/gosha50
+- 
+  social: twitter
+  url: https://twitter.com/georgeakinian
+- 
+  social: linkedin
+  url: >
+    https://www.linkedin.com/pub/george-akinian/b7/724/ba9
