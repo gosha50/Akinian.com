@@ -255,5 +255,9 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 5px 0;
+}
+
+.text-muted {
+    text-align: center;
 }

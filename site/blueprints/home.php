@@ -6,9 +6,6 @@ fields:
   title:
     label: Title
     type:  text
-  user:
-    label: user
-    type:  text
   intro:
     label: Intro
     type:  text
@@ -53,9 +50,6 @@ fields:
     type:  email
   line:
     type: line
-  copyright:
-    label: Copyright
-    type:  text
   hero_image:
     label: hero image
     type:  selector

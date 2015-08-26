@@ -1,4 +1,4 @@
-Title: Akinian.com
+Title: Akinian
 
 ----
 
@@ -43,14 +43,6 @@ Phone: (360) 609-9987
 ----
 
 Email: info@akinian.com
-
-----
-
-User: Akinian
-
-----
-
-Copyright: Akinian.com 2015
 
 ----
 

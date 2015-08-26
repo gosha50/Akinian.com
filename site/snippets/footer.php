@@ -40,9 +40,10 @@
 
         </div>
         <?php snippet('map') ?>
+        <hr class="small">
         <div class="container">
             <div class="row">
-                <p class="text-muted">Copyright &copy; <?php echo $page->copyright()->html() ?></p>
+                <p class="text-muted"><?php echo $_SERVER['SERVER_NAME'] ?>  &copy; <?php echo date("Y") ?> </p>
             </div>
         </div>
     </footer>
