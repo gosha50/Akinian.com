@@ -84,7 +84,7 @@ fields:
     type:  structure
     fields:
       
-      social :
+      social:
         label: Social Network
         type: select
         default: architecture 
@@ -101,4 +101,15 @@ fields:
           linkedin: linked in
       url:
         label: Profile URL
+        type:  text
+  items:
+    label: Add Menu Items
+    type:  structure
+    fields:
+      item:
+        label: Section Name
+        type: text
+        default: Home 
+      URL:
+        label: Section URL
         type:  text

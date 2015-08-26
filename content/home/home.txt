@@ -89,5 +89,12 @@ Accounts:
   url: https://twitter.com/georgeakinian
 - 
   social: linkedin
-  url: >
-    https://www.linkedin.com/pub/george-akinian/b7/724/ba9
+  url:
+
+----
+
+Items: 
+
+- 
+  item: Home
+  url: '#top'

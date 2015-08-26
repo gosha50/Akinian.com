@@ -15,6 +15,8 @@
                     </ul>
                     <br>
                     <p> </p>
+
+                    <!-- Social Accounts -->
                     <ul class="list-inline">
                        
 
@@ -33,9 +35,14 @@
                      
                     </ul>
                 
-                      <hr class="small">
-                    <p class="text-muted">Copyright &copy; <?php echo $page->copyright()->html() ?></p>
                 </div>
+            </div>
+
+        </div>
+        <?php snippet('map') ?>
+        <div class="container">
+            <div class="row">
+                <p class="text-muted">Copyright &copy; <?php echo $page->copyright()->html() ?></p>
             </div>
         </div>
     </footer>
@@ -59,6 +66,14 @@
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
+    // Closes the sidebar menu when the body is clicked
+    $('header, footer, aside, section').click(function(e){
+        if (e.target.nodeName != 'A' && e.target.nodeName != 'I') {
+            e.preventDefault();
+            $("#sidebar-wrapper").removeClass("active");
+        }
+    });
+
 
     // Scrolls to the selected menu item on the page
     $(function() {
