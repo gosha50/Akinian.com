@@ -5,23 +5,14 @@
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-bars"></i></a>
          <ul class="sidebar-nav">
 
-            <li>
-                <a href="<?php echo $page->Items()->url() ?>" onclick = $("#menu-close").click(); ><?php echo $page->Items()->toStructure()->html() ?></a>
-            </li>
-            <li>
-                <a href="#about" onclick = $("#menu-close").click(); >About</a>
-            </li>
-            <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Services</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
+            <?php foreach ($page->menu_items()->toStructure() as $item): ?>
+                <li>
+                    <a href="<?php  echo $item->url() ?>" onclick = $("#menu-close").click(); ><?php  echo $item->label() ?></a>
+                </li>
+
+            <?php endforeach ?>
         </ul>
     </nav>
 
 
-
+ 

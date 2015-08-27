@@ -96,11 +96,11 @@ fields:
       url:
         label: Profile URL
         type:  text
-  items:
+  menu_items:
     label: Add Menu Items
     type:  structure
     fields:
-      item:
+      label:
         label: Section Name
         type: text
         default: Home 

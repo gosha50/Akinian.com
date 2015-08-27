@@ -85,8 +85,20 @@ Accounts:
 
 ----
 
-Items: 
+Menu-items: 
 
 - 
-  item: Home
+  label: Home
   url: '#top'
+- 
+  label: About
+  url: '#about'
+- 
+  label: Services
+  url: '#services'
+- 
+  label: Portfolio
+  url: '#portfolio'
+- 
+  label: Contact
+  url: '#contact'
