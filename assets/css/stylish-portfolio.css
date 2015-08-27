@@ -38,7 +38,7 @@ body {
  
 .btn-dark {
     border-radius: 0;
-    color: #B1B1B1;
+    color: #fff;
     background-color: transparent;
 }
 
@@ -54,7 +54,7 @@ body {
 .btn-light {
     border-radius: 0;
 
-    color: #B1B1B1;
+    color: white;
     background-color: transparent;
 }
 
@@ -65,7 +65,7 @@ body {
 
     color: white;
     background-color:  transparent;
-    color: #B1B1B1;
+    color: white;
     background-color: transparent;
 }
 
@@ -144,6 +144,7 @@ hr.small {
     position: fixed;
     top: 0;
     right: 0;
+    background-color: rgba(0,0,0,.5);
 }
 
 #sidebar-wrapper.active {
@@ -255,7 +256,7 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .text-muted {

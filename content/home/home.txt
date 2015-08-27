@@ -68,6 +68,10 @@ Our-work-images:
   image: desk.jpg
 - 
   image: portfolio-3.jpg
+- 
+  image: bioflourish.jpg
+- 
+  image: rogue.jpg
 
 ----
 

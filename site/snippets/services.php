@@ -14,7 +14,7 @@
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
                                 <h4> 
-                                    <strong>responsive web packages</strong>
+                                    <strong>Responsive Design</strong>
                                 </h4>
                             </div>
                         </div>
@@ -25,7 +25,7 @@
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>eCommerce web packages</strong>
+                                    <strong>Costom CSM</strong>
                                 </h4>
                                  
                             </div>
@@ -37,7 +37,7 @@
                                 <i class="fa fa-flask fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>web hosting packages</strong>
+                                    <strong>Comprehansive Testing</strong>
                                 </h4>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong> SEO program packages</strong>
+                                    <strong> Administrative Back-End</strong>
                                 </h4>
                             </div>
                         </div>
