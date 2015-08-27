@@ -37,7 +37,7 @@
                                 <i class="fa fa-flask fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Comprehansive Testing</strong>
+                                    <strong>Comprehensive Testing</strong>
                                 </h4>
                             </div>
                         </div>
