@@ -46,7 +46,7 @@ Email: info@akinian.com
 
 ----
 
-Website-request-image: bg_suburb1.jpg
+Website-request-image: screen-shot-2015-08-28-at-11.18.57-am.png
 
 ----
 
@@ -69,7 +69,8 @@ Our-work-images:
   image: screen-shot-2015-08-27-at-4.34.16-pm.png
   image_name: 'Backend - Content Management System '
 - 
-  image: rogue-public-website.png
+  image: >
+    screen-shot-2015-08-28-at-11.18.57-am.png
   image_name: 'Rogue -  Public Website Testing'
 - 
   image: portfolio-3.jpg
