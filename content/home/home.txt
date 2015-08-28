@@ -57,21 +57,23 @@ Hero-image: bg.jpg
 Our-work-images: 
 
 - 
-  image: angular.jpg
+  image: bioflourish.jpg
+  image_name: 'Bioflourish - QA'
 - 
-  image: framework.jpg
+  image: rogue-beer-finder.png
+  image_name: 'Rogue Beer Finder - Mobile Device Testing'
 - 
-  image: nodejs.jpg
+  image: screen-shot-2015-08-27-at-4.14.01-pm.png
+  image_name: 'Front-End '
 - 
-  image: screen.jpg
+  image: screen-shot-2015-08-27-at-4.34.16-pm.png
+  image_name: Content Management System
 - 
-  image: desk.jpg
+  image: rogue-public-website.png
+  image_name: 'Rogue -  Public Website Testing'
 - 
   image: portfolio-3.jpg
-- 
-  image: bioflourish.jpg
-- 
-  image: rogue.jpg
+  image_name: 'Custom Performance Monitoring Software '
 
 ----
 

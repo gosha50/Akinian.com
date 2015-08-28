@@ -73,6 +73,9 @@ fields:
         mode:  single
         types: 
           - image
+      image_name:
+        label: Image Name
+        type:  text
   accounts:
     label: Social Network
     type:  structure

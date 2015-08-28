@@ -7,14 +7,17 @@
                     <h2>Our Work</h2>
                     <hr class="small">
                     <div class="row">
-                        <?php foreach ($page->our_work_images()->toStructure() as $item): // toStructure makes structure a kirby object which makes it possible to use kirbies channing syntax http://getkirby.com/docs/cheatsheet/field-methods/toStructure ?>  
+                        <?php foreach ($page->our_work_images()->toStructure() as $item): 
+                        // toStructure makes structure a kirby object which makes it possible to use kirbies channing syntax http://getkirby.com/docs/cheatsheet/field-methods/toStructure ?>  
 
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
 
-                                     <img class="img-portfolio img-responsive" src="<?php echo thumb( $page->file($item->image()), array('width' => 458, 'height' =>230, 'crop' =>true))->url() ?>">  
+                                     <img class="img-portfolio img-responsive" src="<?php echo thumb( $page->file($item->image()), 
+                                     array('width' => 458, 'height' =>230, 'crop' =>true))->url() ?>">  
                                 </a>
+                                <h5> <?php echo $item->image_name()->html() ?> </h5>
                             </div>
                         </div>
                            <?php endforeach ?>

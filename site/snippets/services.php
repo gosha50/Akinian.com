@@ -25,7 +25,7 @@
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Costom CSM</strong>
+                                    <strong>Costom CMS</strong>
                                 </h4>
                                  
                             </div>
@@ -66,7 +66,7 @@
     <aside class="callout" style="background: url(<?php echo $page->file($page->website_request_image())->url() ?>) no-repeat center center scroll;">
 
         <div class="text-vertical-center">
-            <h1>Costom Website Request</h1>
+            <h1>Custom Website Request</h1>
         </div>
     </aside>
 
