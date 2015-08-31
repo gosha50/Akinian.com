@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sideba",
+				"sidebar-wrapper"
+			],
+			[
+				"work",
+				"our_work_images"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
 				"borderr",
 				"border-color"
 			],
@@ -72,10 +92,6 @@
 				"toString"
 			],
 			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"li",
 				"line-height"
 			],
@@ -95,7 +111,15 @@
 			"file": "site/blueprints/home.php",
 			"settings":
 			{
-				"buffer_size": 470,
+				"buffer_size": 2060,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/snippets/portfolio.php",
+			"settings":
+			{
+				"buffer_size": 2030,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,15 +127,42 @@
 			"file": "content/home/home.txt",
 			"settings":
 			{
-				"buffer_size": 424,
+				"buffer_size": 1468,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "site/snippets/header.php",
+			"file": "site/snippets/menu.php",
 			"settings":
 			{
-				"buffer_size": 1550,
+				"buffer_size": 652,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n    <!-- Footer -->\n    <footer id=\"contact_2\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-lg-10 col-lg-offset-1 text-center\">\n                    <h4><strong>Contact Info</strong>\n                    </h4>\n                    <p><?php echo $page->Address()->html() ?><br><?php echo $page->City()->html() ?>, <?php echo $page->State()->html() ?>  <?php echo $page->Zip()->html() ?>, <?php echo $page->Country()->html() ?>.</p>\n\n                    <ul class=\"list-unstyled\">\n                        <li><i class=\"fa fa-phone fa-fw\"></i> <?php echo $page->phone()->html() ?></li>\n                        <li><i class=\"fa fa-envelope-o fa-fw\"></i>  <a href=\"mailto:name@akinian.com\"><?php echo $page->email()->html() ?></a>\n                        </li>\n                    </ul>\n                    <br>\n                    <p> </p>\n\n                    <!-- Social Accounts -->\n                    <ul class=\"list-inline\">\n                       \n\n                        <?php foreach ($page->accounts()->toStructure() as $account): // toStructure makes structure a kirby object which makes it possible to use kirbies chaining syntax http://getkirby.com/docs/cheatsheet/field-methods/toStructure ?>  \n\n                            <li>\n<a href=\"<?php echo $account->url()->html() ?>\">\n                                                                    <i class=\"fa fa-<?php echo $account->social()->html() ?> fa-fw fa-3x\"></i>\n                                </a>\n                            </li>\n\n                        <?php endforeach; ?>\n\n\n    \n                     \n                    </ul>\n                \n                </div>\n            </div>\n\n        </div>\n        <?php snippet('map') ?>\n        <hr class=\"small\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <p class=\"text-muted\"><?php echo $_SERVER['SERVER_NAME'] ?>  &copy; <?php echo date(\"Y\") ?> </p>\n            </div>\n        </div>\n    </footer>\n\n    <!-- jQuery -->\n    <script src=\"/assets/js/jquery.js\"></script>\n\n    <!-- Bootstrap Core JavaScript -->\n    <script src=\"/assets/js/bootstrap.min.js\"></script>\n\n    <!-- Custom Theme JavaScript -->\n    <script>\n    // Closes the sidebar menu\n    $(\"#menu-close\").click(function(e) {\n        e.preventDefault();\n        console.log('yay');\n        $(\"#sidebar-wrapper\").toggleClass(\"active\");\n    });\n\n    // Opens the sidebar menu\n    $(\"#menu-toggle\").click(function(e) {\n        e.preventDefault();\n        $(\"#sidebar-wrapper\").toggleClass(\"active\");\n    });\n    // Closes the sidebar menu when the body is clicked\n    $('header, footer, aside, section').click(function(e){\n        if (e.target.nodeName != 'A' && e.target.nodeName != 'I') {\n            e.preventDefault();\n            $(\"#sidebar-wrapper\").removeClass(\"active\");\n        }\n    });\n\n\n    // Scrolls to the selected menu item on the page\n    $(function() {\n        $('a[href*=#]:not([href=#])').click(function() {\n            if (location.pathname.replace(/^\\//, '') == this.pathname.replace(/^\\//, '') || location.hostname == this.hostname) {\n\n                var target = $(this.hash);\n                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');\n                if (target.length) {\n                    $('html,body').animate({\n                        scrollTop: target.offset().top\n                    }, 1000);\n                    return false;\n                }\n            }\n        });\n    });\n    </script>\n\n</body>\n\n</html>\n",
+			"file": "site/snippets/footer.php",
+			"file_size": 3547,
+			"file_write_time": 1440728623000000,
+			"settings":
+			{
+				"buffer_size": 3547,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "site/snippets/services.php",
+			"settings":
+			{
+				"buffer_size": 3394,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/stylish-portfolio.css",
+			"settings":
+			{
+				"buffer_size": 3954,
 				"line_ending": "Unix"
 			}
 		}
@@ -192,22 +243,28 @@
 	},
 	"file_history":
 	[
-		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/about.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/templates/home.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/templates/default.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/blueprints/default.php",
+		"/Users/georgeakinian/Projects/Akinian.com/assets/css/bootstrap.css",
 		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/header.php",
+		"/Users/georgeakinian/Projects/Akinian.com/assets/css/stylish-portfolio.css",
 		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/portfolio.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/templates/home.php",
+		"/Users/georgeakinian/Projects/Akinian.com/assets/css/bootstrap.min.css",
+		"/Users/georgeakinian/Projects/Akinian.com/assets/css/main.css",
 		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/footer.php",
-		"/Users/georgeakinian/Projects/Akinian.com/site/plugins/index.html",
-		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/services.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/templates/default.php",
 		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/map.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/about.php",
+		"/Users/georgeakinian/Projects/Akinian.com/index.php",
+		"/Users/georgeakinian/Projects/Akinian.com/akinian.kirby.sublime-workspace",
+		"/Users/georgeakinian/Projects/Akinian.com/kirby/readme.md",
+		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/services.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/blueprints/default.php",
+		"/Users/georgeakinian/Projects/Akinian.com/site/plugins/index.html",
 		"/Users/georgeakinian/Projects/Akinian.com/site/snippets/map",
 		"/Users/georgeakinian/Downloads/kirby-2.1.1/site/templates/default.php",
 		"/Users/georgeakinian/Downloads/kirby-2.1.1/site/templates/projects.php",
 		"/Users/georgeakinian/Downloads/kirby-2.1.1/content/home/home.txt",
 		"/Users/georgeakinian/Downloads/kirby-2.1.1/content/3-contact/contact.txt",
-		"/Users/georgeakinian/Projects/Akinian.com/assets/css/stylish-portfolio.css",
 		"/Users/georgeakinian/Projects/Akinian.com/old site/js/main.js",
 		"/Users/georgeakinian/Projects/Akinian.com/old site/README.md",
 		"/Users/georgeakinian/Projects/Akinian.com/assets/js/bootstrap.min.js",
@@ -240,7 +297,6 @@
 		"/Users/georgeakinian/Downloads/2-5/start/my-styles.css",
 		"/Users/georgeakinian/Projects/PHP/htdocs/index.php",
 		"/Users/georgeakinian/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/georgeakinian/Projects/Akinian.com/index.php",
 		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.css",
 		"/Users/georgeakinian/Projects/Akinian.com/css/stylish-portfolio.css",
 		"/Users/georgeakinian/Projects/Akinian.com/css/bootstrap.min.css",
@@ -314,12 +370,7 @@
 		"/Users/georgeakinian/Projects/nodeJS/Basics/stage_1_video_2/app.js",
 		"/Users/georgeakinian/Projects/nodeJS/Basics/stage_1_video_2/profile.js",
 		"/Users/georgeakinian/Projects/sass/4-creating-loops-with-for-and-each/start/main.css",
-		"/Users/georgeakinian/Projects/sass/3-interpolation-and-if-else/start/main.css",
-		"/Users/georgeakinian/Projects/sass/2-working-with-media-queries/start/main.css",
-		"/Users/georgeakinian/Projects/sass/1-debugging-sass/start/main.css",
-		"/Users/georgeakinian/Downloads/4-sass-functions/start/main.scss",
-		"/Users/georgeakinian/Downloads/1-creating-a-color-pallet/start/main.css",
-		"/Users/georgeakinian/Downloads/4-extending-selectors/start/main.css"
+		"/Users/georgeakinian/Projects/sass/3-interpolation-and-if-else/start/main.css"
 	],
 	"find":
 	{
@@ -343,6 +394,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"menu",
+			"menu-close",
+			"#menu-close",
+			"menu-close",
+			"fa fa",
+			"#contact",
+			"active",
+			"snippet",
+			"                    <p> </p>\n",
+			"text-muted",
+			"text-muted ",
+			"text-muted",
+			"top h1",
+			"data-api",
+			"lite",
+			"light",
+			"btn",
+			"btn.light",
+			"fa",
+			".fa",
+			"a",
+			"toggle",
+			"menu",
+			"menu-close",
+			"menu",
 			"header",
 			"btn",
 			"top",
@@ -445,32 +521,7 @@
 			"button",
 			"name",
 			"name ",
-			"name",
-			"incomplete",
-			"new-task",
-			"id",
-			"Andrew ",
-			"2",
-			"font",
-			"2",
-			"Andrew",
-			"push ",
-			"push",
-			"get",
-			"form",
-			"\n\n\nform\nform",
-			"form",
-			"onclick",
-			"onli",
-			"onl",
-			"whole ",
-			"<image",
-			"#gallery",
-			"#gallery li a p",
-			"max-width:",
-			"max-width: 350px;",
-			"viewport",
-			"letter-spacing: 5%"
+			"name"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -498,20 +549,50 @@
 					"file": "site/blueprints/home.php",
 					"settings":
 					{
-						"buffer_size": 470,
+						"buffer_size": 2060,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								1318,
+								1318
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 708.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "site/snippets/portfolio.php",
+					"settings":
+					{
+						"buffer_size": 2030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1074,
+								1074
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -526,19 +607,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "content/home/home.txt",
 					"settings":
 					{
-						"buffer_size": 424,
+						"buffer_size": 1468,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								107,
-								107
+								856,
+								856
 							]
 						],
 						"settings":
@@ -546,25 +627,25 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 412.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "site/snippets/header.php",
+					"buffer": 3,
+					"file": "site/snippets/menu.php",
 					"settings":
 					{
-						"buffer_size": 1550,
+						"buffer_size": 652,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1429,
-								1429
+								176,
+								186
 							]
 						],
 						"settings":
@@ -573,8 +654,92 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 11.0,
+						"translation.x": 130.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "site/snippets/footer.php",
+					"settings":
+					{
+						"buffer_size": 3547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								852,
+								852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "site/snippets/services.php",
+					"settings":
+					{
+						"buffer_size": 3394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3294,
+								3294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/css/stylish-portfolio.css",
+					"settings":
+					{
+						"buffer_size": 3954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3447,
+								3457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 327.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -610,7 +775,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.520073664123,
 			1.0
 		],
 		"rows":
@@ -653,6 +818,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 210.0,
+	"side_bar_width": 231.0,
 	"status_bar_visible": true
 }
