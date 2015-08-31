@@ -71,7 +71,7 @@ Our-work-images:
 - 
   image: backend-content_managment_system.png
   image_name: 'Backend - Content Management System'
-  url: http://akinian.com/panel/login
+  url: ' '
 - 
   image: portfolio-3.jpg
   image_name: Performance Monitoring Applications

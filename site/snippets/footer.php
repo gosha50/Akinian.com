@@ -70,7 +70,7 @@
     });
     // Closes the sidebar menu when the body is clicked
     $('header, footer, aside, section').click(function(e){
-        if (e.target.nodeName != 'A' && e.target.nodeName != 'I') {
+        if (e.target.nodeName != 'A' && e.target.nodeName != 'I' && e.target.nodeName != 'IMG') {
             e.preventDefault();
             $("#sidebar-wrapper").removeClass("active");
         }
