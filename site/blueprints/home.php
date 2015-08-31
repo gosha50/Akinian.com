@@ -76,6 +76,9 @@ fields:
       image_name:
         label: Image Name
         type:  text
+      url: 
+        label: URL
+        type: text
   accounts:
     label: Social Network
     type:  structure

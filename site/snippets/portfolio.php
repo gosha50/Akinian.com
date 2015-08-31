@@ -12,7 +12,7 @@
 
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="<?php echo $item->url() ?>">
 
                                      <img class="img-portfolio img-responsive" src="<?php echo thumb( $page->file($item->image()), 
                                      array('width' => 458, 'height' =>230, 'crop' =>true))->url() ?>">  

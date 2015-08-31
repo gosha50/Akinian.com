@@ -46,7 +46,7 @@ Email: info@akinian.com
 
 ----
 
-Website-request-image: screen-shot-2015-08-28-at-11.18.57-am.png
+Website-request-image: bg_suburb1.jpg
 
 ----
 
@@ -59,22 +59,29 @@ Our-work-images:
 - 
   image: bioflourish.jpg
   image_name: 'Bioflourish - QA'
+  url: http://bioflourish.com/
 - 
   image: rogue-beer-finder.png
   image_name: 'Rogue Beer Finder - Mobile Device Testing'
+  url: http://www.rogue.com/finder
 - 
-  image: screen-shot-2015-08-27-at-4.14.01-pm.png
-  image_name: 'Frontend '
+  image: frontend.png
+  image_name: Frontend
+  url: http://akinian.com
 - 
-  image: screen-shot-2015-08-27-at-4.34.16-pm.png
-  image_name: 'Backend - Content Management System '
-- 
-  image: >
-    screen-shot-2015-08-28-at-11.18.57-am.png
-  image_name: 'Rogue -  Public Website Testing'
+  image: backend-content_managment_system.png
+  image_name: 'Backend - Content Management System'
+  url: http://akinian.com/panel/login
 - 
   image: portfolio-3.jpg
   image_name: Performance Monitoring Applications
+- 
+  image: rogue_braggots.png
+  image_name: 'Rogue Planning Kit - Testing'
+- 
+  image: rogue_public_site.png
+  image_name: 'Rogue Public Site - Testing'
+  url: http://www.rogue.com/
 
 ----
 
