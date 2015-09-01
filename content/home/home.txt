@@ -2,7 +2,7 @@ Title: Akinian
 
 ----
 
-Intro: Web Applications
+Intro: Mobile Web Apps
 
 ----
 
@@ -105,11 +105,11 @@ Menu-items:
   label: Home
   url: '#top'
 - 
-  label: Services
-  url: '#services'
-- 
   label: About
   url: '#about'
+- 
+  label: Services
+  url: '#services'
 - 
   label: Portfolio
   url: '#portfolio'
