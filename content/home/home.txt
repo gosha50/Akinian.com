@@ -95,7 +95,7 @@ Accounts:
   url: https://twitter.com/georgeakinian
 - 
   social: linkedin
-  url:
+  url: https://www.linkedin.com/nhome/
 
 ----
 
