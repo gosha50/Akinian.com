@@ -74,7 +74,10 @@ Our-work-images:
   url:
 - 
   image: portfolio-3.jpg
-  image_name: Performance Monitoring Applications
+  image_name: >
+    Custom Performance Monitoring
+    Applications
+  url:
 - 
   image: rogue_braggots.png
   image_name: 'Rogue Planning Kit - QA'
