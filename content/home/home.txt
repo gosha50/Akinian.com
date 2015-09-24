@@ -90,6 +90,10 @@ Our-work-images:
   image: nikedigital-merchshow.png
   image_name: 'Nike Digital Merch Show - QA'
   url: 'http://dev.preview.tngdev.com/Nike/digimerch/#/sample/en-US/'
+- 
+  image: esteelauder.jpg
+  image_name: 'Estée Lauder -Contant Management '
+  url:
 
 ----
 

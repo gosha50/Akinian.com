@@ -135,7 +135,7 @@
 			"file": "content/home/home.txt",
 			"settings":
 			{
-				"buffer_size": 1599,
+				"buffer_size": 1631,
 				"line_ending": "Unix"
 			}
 		},
@@ -655,7 +655,7 @@
 					"file": "content/home/home.txt",
 					"settings":
 					{
-						"buffer_size": 1599,
+						"buffer_size": 1631,
 						"regions":
 						{
 						},
