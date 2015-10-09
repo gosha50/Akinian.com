@@ -94,6 +94,11 @@ Our-work-images:
   image: esteelauder.jpg
   image_name: Estée Lauder – Data Management
   url:
+- 
+  image: screen-shot-2015-10-08-at-6.40.42-pm.png
+  image_name: 'Intel -  Testing'
+  url: >
+    http://www.intel.com/content/www/us/en/internet-of-things/solutions-directory.html
 
 ----
 
