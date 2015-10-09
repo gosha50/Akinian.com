@@ -84,7 +84,7 @@ Our-work-images:
   url: http://www.rogue.com/planning-kit/login
 - 
   image: rogue_public_site.png
-  image_name: Rogue Public Site z – QA
+  image_name: Rogue Public Site – QA
   url: http://www.rogue.com/
 - 
   image: nikedigital-merchshow.png
@@ -96,7 +96,7 @@ Our-work-images:
   url:
 - 
   image: screen-shot-2015-10-08-at-6.40.42-pm.png
-  image_name: 'Intel -  Testing'
+  image_name: Intel – Testing
   url: >
     http://www.intel.com/content/www/us/en/internet-of-things/solutions-directory.html
 
