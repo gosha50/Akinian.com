@@ -2,7 +2,7 @@ Title: Gosha Akinian
 
 ----
 
-Intro: Mobile Web Apps
+Intro: Tech
 
 ----
 
@@ -64,14 +64,6 @@ Our-work-images:
   image: rogue-beer-finder.png
   image_name: Rogue Beer Finder
   url: http://www.rogue.com/finder
-- 
-  image: frontend.png
-  image_name: Frontend
-  url: http://akinian.com
-- 
-  image: backend-content_managment_system.png
-  image_name: Backend – CMS
-  url:
 - 
   image: portfolio-3.jpg
   image_name: >

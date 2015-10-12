@@ -48,7 +48,7 @@
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong> Administrative Back-End</strong>
+                                    <strong> Administrative Backend</strong>
                                 </h4>
                             </div>
                         </div>
