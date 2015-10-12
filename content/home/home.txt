@@ -14,7 +14,7 @@ Subtext: Turning users into raving fanatics and generating consistent leads for 
 
 ----
 
-Upsite: This site is so pretty you want to look at it again!
+Upsite: Powerful tech, at your fingertips.
 
 ----
 
@@ -58,11 +58,11 @@ Our-work-images:
 
 - 
   image: bioflourish.jpg
-  image_name: Bioflourish – QA
+  image_name: Bioflourish
   url: http://bioflourish.com/
 - 
   image: rogue-beer-finder.png
-  image_name: Rogue Beer Finder – QA
+  image_name: Rogue Beer Finder
   url: http://www.rogue.com/finder
 - 
   image: frontend.png
@@ -76,27 +76,27 @@ Our-work-images:
   image: portfolio-3.jpg
   image_name: >
     Custom Performance Monitoring
-    Applications
+    Application
   url:
 - 
   image: rogue_braggots.png
-  image_name: Rogue Planning Kit – QA
+  image_name: Rogue Planning Kit
   url: http://www.rogue.com/planning-kit/login
 - 
   image: rogue_public_site.png
-  image_name: Rogue Public Site – QA
+  image_name: Rogue Public Site
   url: http://www.rogue.com/
 - 
   image: nikedigital-merchshow.png
-  image_name: Nike Digital Merch Show – QA
+  image_name: Nike Digital Merch Show
   url: 'http://dev.preview.tngdev.com/Nike/digimerch/#/sample/en-US/'
 - 
   image: esteelauder.jpg
-  image_name: Estée Lauder – Data Management
+  image_name: Estée Lauder Public Website
   url:
 - 
   image: screen-shot-2015-10-08-at-6.40.42-pm.png
-  image_name: Intel – Testing
+  image_name: Intel Public Website
   url: >
     http://www.intel.com/content/www/us/en/internet-of-things/solutions-directory.html
 

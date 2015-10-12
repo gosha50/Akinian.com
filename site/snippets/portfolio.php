@@ -38,8 +38,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3><?php echo $page->upsite()->html() ?></h3>
-                    <a href="#top" class="btn btn-lg btn-light">Top Page!</a> or
-                    <a href="#contact_2" class="btn btn-lg btn-dark">Contact!</a>
+                    <!-- <a href="#top" class="btn btn-lg btn-light">Top Page!</a> or
+                    <a href="#contact_2" class="btn btn-lg btn-dark">Contact!</a> -->
                 </div>
             </div>
         </div>

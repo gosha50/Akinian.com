@@ -119,7 +119,7 @@
 			"file": "site/snippets/portfolio.php",
 			"settings":
 			{
-				"buffer_size": 2058,
+				"buffer_size": 2067,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,7 +135,7 @@
 			"file": "content/home/home.txt",
 			"settings":
 			{
-				"buffer_size": 2047,
+				"buffer_size": 2029,
 				"line_ending": "Unix"
 			}
 		},
@@ -159,7 +159,7 @@
 			"file": "assets/css/stylish-portfolio.css",
 			"settings":
 			{
-				"buffer_size": 4009,
+				"buffer_size": 4024,
 				"line_ending": "Unix"
 			}
 		},
@@ -186,7 +186,7 @@
 			"file": "assets/css/bootstrap.min.css",
 			"settings":
 			{
-				"buffer_size": 117321,
+				"buffer_size": 117319,
 				"line_ending": "Unix"
 			}
 		}
@@ -565,7 +565,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -691,15 +691,15 @@
 					"file": "site/snippets/portfolio.php",
 					"settings":
 					{
-						"buffer_size": 2058,
+						"buffer_size": 2067,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1851,
-								1851
+								1846,
+								1988
 							]
 						],
 						"settings":
@@ -799,7 +799,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -816,7 +816,7 @@
 						"selection":
 						[
 							[
-								2383,
+								2385,
 								2385
 							]
 						],
@@ -916,8 +916,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 61.0,
-						"translation.y": 468.0,
+						"translation.x": 7.0,
+						"translation.y": 1011.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -925,7 +925,7 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -933,7 +933,7 @@
 					"file": "content/home/home.txt",
 					"settings":
 					{
-						"buffer_size": 2047,
+						"buffer_size": 2029,
 						"regions":
 						{
 						},
@@ -1041,7 +1041,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 561.0,
+						"translation.y": 1588.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1186,7 +1186,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 1.0,
+						"translation.x": 95.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1304,8 +1304,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 53.0,
+						"translation.y": 915.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1315,15 +1315,15 @@
 					"file": "assets/css/stylish-portfolio.css",
 					"settings":
 					{
-						"buffer_size": 4009,
+						"buffer_size": 4024,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3030,
-								3030
+								607,
+								607
 							]
 						],
 						"settings":
@@ -1423,7 +1423,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2959.0,
+						"translation.y": 4143.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1667,15 +1667,15 @@
 					"file": "assets/css/bootstrap.min.css",
 					"settings":
 					{
-						"buffer_size": 117321,
+						"buffer_size": 117319,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								117321,
-								117321
+								18244,
+								18244
 							]
 						],
 						"settings":
@@ -1772,7 +1772,7 @@
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 1054033.0,
+						"translation.x": 162455.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
