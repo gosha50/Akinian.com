@@ -106,12 +106,12 @@ hr.small {
     padding: 0;
     list-style: none;
     padding-top: 55px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .sidebar-nav li {
     text-indent: 90px;
-    line-height: 50px;
+    line-height: 35px;
 
 }
 
