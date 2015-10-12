@@ -135,7 +135,7 @@
 			"file": "content/home/home.txt",
 			"settings":
 			{
-				"buffer_size": 2029,
+				"buffer_size": 2011,
 				"line_ending": "Unix"
 			}
 		},
@@ -159,7 +159,7 @@
 			"file": "assets/css/stylish-portfolio.css",
 			"settings":
 			{
-				"buffer_size": 4024,
+				"buffer_size": 4021,
 				"line_ending": "Unix"
 			}
 		},
@@ -186,7 +186,7 @@
 			"file": "assets/css/bootstrap.min.css",
 			"settings":
 			{
-				"buffer_size": 117319,
+				"buffer_size": 117318,
 				"line_ending": "Unix"
 			}
 		}
@@ -418,6 +418,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"a{",
+			"#top h3",
+			".bg-primary",
 			".h3, h3",
 			".text-vertical-center",
 			"sidebar-wrappp",
@@ -542,10 +545,7 @@
 			"listItem2",
 			"listItem_",
 			"createNewTaskElement",
-			"listItem",
-			"new-task",
-			"button",
-			"edit "
+			"listItem"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -799,7 +799,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 57.0,
+						"translation.y": 104.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -917,7 +917,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 7.0,
-						"translation.y": 1011.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -925,7 +925,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -933,7 +933,7 @@
 					"file": "content/home/home.txt",
 					"settings":
 					{
-						"buffer_size": 2029,
+						"buffer_size": 2011,
 						"regions":
 						{
 						},
@@ -1305,7 +1305,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 53.0,
-						"translation.y": 915.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1315,15 +1315,15 @@
 					"file": "assets/css/stylish-portfolio.css",
 					"settings":
 					{
-						"buffer_size": 4024,
+						"buffer_size": 4021,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								607,
-								607
+								3083,
+								3083
 							]
 						],
 						"settings":
@@ -1423,7 +1423,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4143.0,
+						"translation.y": 3038.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1667,15 +1667,15 @@
 					"file": "assets/css/bootstrap.min.css",
 					"settings":
 					{
-						"buffer_size": 117319,
+						"buffer_size": 117318,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18244,
-								18244
+								18570,
+								18570
 							]
 						],
 						"settings":
@@ -1772,7 +1772,7 @@
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 162455.0,
+						"translation.x": 165265.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
