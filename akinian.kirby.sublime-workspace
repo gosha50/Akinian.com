@@ -186,7 +186,7 @@
 			"file": "assets/css/bootstrap.min.css",
 			"settings":
 			{
-				"buffer_size": 117318,
+				"buffer_size": 117320,
 				"line_ending": "Unix"
 			}
 		}
@@ -799,7 +799,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 104.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -925,7 +925,7 @@
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -1667,15 +1667,15 @@
 					"file": "assets/css/bootstrap.min.css",
 					"settings":
 					{
-						"buffer_size": 117318,
+						"buffer_size": 117320,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18570,
-								18570
+								18245,
+								18245
 							]
 						],
 						"settings":
@@ -1772,7 +1772,7 @@
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 165265.0,
+						"translation.x": 162455.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
