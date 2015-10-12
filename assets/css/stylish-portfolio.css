@@ -54,8 +54,8 @@ body {
 .btn-light {
     border-radius: 0;
 
-    color: black;
-    background-color: white;
+    color: #F05F40;
+    background-color: #222222;
 }
 
 
@@ -87,10 +87,10 @@ hr.small {
     position: fixed;
     right: 0;
     width: 250px;
-    height: 100%;
+    height: 42%;
     margin-right: -250px;
     overflow-y: auto;
-    background: #222;
+    background: transparant;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -105,12 +105,13 @@ hr.small {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-top: 40px;
+    padding-top: 55px;
+    font-size: 40px;
 }
 
 .sidebar-nav li {
     text-indent: 20px;
-    line-height: 40px;
+    line-height: 50px;
 
 }
 
@@ -184,7 +185,7 @@ hr.small {
 }
 #top h1,
 #top h3 {
-    color: #FFD1A8;
+    color: #f05f40;
 }
 /* About */
 
