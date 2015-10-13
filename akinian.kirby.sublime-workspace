@@ -135,7 +135,7 @@
 			"file": "content/home/home.txt",
 			"settings":
 			{
-				"buffer_size": 2011,
+				"buffer_size": 1842,
 				"line_ending": "Unix"
 			}
 		},
@@ -799,7 +799,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 42.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -925,7 +925,7 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -933,7 +933,7 @@
 					"file": "content/home/home.txt",
 					"settings":
 					{
-						"buffer_size": 2011,
+						"buffer_size": 1842,
 						"regions":
 						{
 						},
@@ -1322,8 +1322,8 @@
 						"selection":
 						[
 							[
-								3083,
-								3083
+								1306,
+								1306
 							]
 						],
 						"settings":
@@ -1423,7 +1423,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3038.0,
+						"translation.y": 1043.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1856,6 +1856,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 258.0,
+	"side_bar_width": 153.0,
 	"status_bar_visible": true
 }
