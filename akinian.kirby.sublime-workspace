@@ -151,7 +151,7 @@
 			"file": "site/snippets/services.php",
 			"settings":
 			{
-				"buffer_size": 3394,
+				"buffer_size": 3393,
 				"line_ending": "Unix"
 			}
 		},
@@ -799,7 +799,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 57.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -925,7 +925,7 @@
 			]
 		},
 		{
-			"selected": 7,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1197,15 +1197,15 @@
 					"file": "site/snippets/services.php",
 					"settings":
 					{
-						"buffer_size": 3394,
+						"buffer_size": 3393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3294,
-								3294
+								2704,
+								2704
 							]
 						],
 						"settings":
@@ -1304,8 +1304,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 53.0,
-						"translation.y": 0.0,
+						"translation.x": 382.0,
+						"translation.y": 359.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1772,7 +1772,7 @@
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 162455.0,
+						"translation.x": 162456.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
