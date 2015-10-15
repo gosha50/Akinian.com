@@ -135,7 +135,7 @@
 			"file": "content/home/home.txt",
 			"settings":
 			{
-				"buffer_size": 1842,
+				"buffer_size": 1849,
 				"line_ending": "Unix"
 			}
 		},
@@ -933,7 +933,7 @@
 					"file": "content/home/home.txt",
 					"settings":
 					{
-						"buffer_size": 1842,
+						"buffer_size": 1849,
 						"regions":
 						{
 						},
@@ -1305,7 +1305,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 382.0,
-						"translation.y": 359.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1809,7 +1809,7 @@
 		"cols":
 		[
 			0.0,
-			0.621948661656,
+			0.523436473627,
 			1.0
 		],
 		"rows":
@@ -1856,6 +1856,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 153.0,
+	"side_bar_width": 236.0,
 	"status_bar_visible": true
 }
