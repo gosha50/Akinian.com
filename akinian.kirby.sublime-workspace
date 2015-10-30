@@ -135,7 +135,7 @@
 			"file": "content/home/home.txt",
 			"settings":
 			{
-				"buffer_size": 1849,
+				"buffer_size": 1851,
 				"line_ending": "Unix"
 			}
 		},
@@ -159,7 +159,7 @@
 			"file": "assets/css/stylish-portfolio.css",
 			"settings":
 			{
-				"buffer_size": 4021,
+				"buffer_size": 4023,
 				"line_ending": "Unix"
 			}
 		},
@@ -933,7 +933,7 @@
 					"file": "content/home/home.txt",
 					"settings":
 					{
-						"buffer_size": 1849,
+						"buffer_size": 1851,
 						"regions":
 						{
 						},
@@ -1315,15 +1315,15 @@
 					"file": "assets/css/stylish-portfolio.css",
 					"settings":
 					{
-						"buffer_size": 4021,
+						"buffer_size": 4023,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1306,
-								1306
+								664,
+								664
 							]
 						],
 						"settings":
@@ -1423,7 +1423,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1043.0,
+						"translation.y": 309.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
