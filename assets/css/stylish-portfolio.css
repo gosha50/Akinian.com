@@ -47,7 +47,7 @@ body {
 .btn-dark:active {
 
     color: white;
-    color: transparent;
+    color: #4FCC8A;
     background-color: transparent;
 }
 
