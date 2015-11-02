@@ -105,13 +105,13 @@ hr.small {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-top: 9px;
-    font-size: 35px;
+    padding-top: 0px;
+    font-size: 25px;
 }
 
 .sidebar-nav li {
     text-indent: 90px;
-    line-height: 35px;
+    line-height: 25px;
 
 }
 
@@ -167,7 +167,7 @@ hr.small {
 }
 
 .toggle {
-    margin: 5px 5px 0 0;
+    margin: 0px 5px 0 0;
 }
 
 /* Header */
