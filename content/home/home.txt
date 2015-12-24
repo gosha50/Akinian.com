@@ -42,7 +42,7 @@ Phone: (360) 609-9987
 
 ----
 
-Email: info@akinian.com
+Email: hello@akinian.com
 
 ----
 
@@ -60,6 +60,11 @@ Our-work-images:
   image: bioflourish.jpg
   image_name: Bioflourish
   url: http://bioflourish.com/
+- 
+  image: screen-shot-2015-10-08-at-6.40.42-pm.png
+  image_name: Intel Public Website
+  url: >
+    http://www.intel.com/content/www/us/en/internet-of-things/solutions-directory.html
 - 
   image: rogue-beer-finder.png
   image_name: Rogue Beer Finder
@@ -87,10 +92,9 @@ Our-work-images:
   image_name: Estée Lauder Public Website
   url:
 - 
-  image: screen-shot-2015-10-08-at-6.40.42-pm.png
-  image_name: Intel Public Website
-  url: >
-    http://www.intel.com/content/www/us/en/internet-of-things/solutions-directory.html
+  image: lawrenceerickson.png
+  image_name: Lawrenceerickson
+  url: http://lawrenceerickson.com/
 
 ----
 
