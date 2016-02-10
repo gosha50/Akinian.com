@@ -25,7 +25,7 @@
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Costom CMS</strong>
+                                    <strong>Custom CMS</strong>
                                 </h4>
                                  
                             </div>
