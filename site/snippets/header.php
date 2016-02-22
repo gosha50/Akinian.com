@@ -46,7 +46,7 @@
     <header id="top" class="header" style="background: url(<?php echo $page->file($page->hero_image())->url() ?>) no-repeat center center scroll;">
         <div class="text-vertical-center">
             <h1><?php echo $page->title()->html() ?></h1>
-            <h3><?php echo $page->Intro()->html() ?></h3>
+            <h3 id="intro"><?php echo $page->Intro()->html() ?></h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>

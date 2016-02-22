@@ -28,6 +28,11 @@ body {
     font-size: 2.5em;
     font-weight: 700;
 }
+
+/* Gliphs */
+.text-primary {
+    color: #62BC73;
+}
  
 /* Custom Button Styles */
  
@@ -189,11 +194,20 @@ hr.small {
 #top h3 {
     color: #F35848;
 }
+
+#intro {
+    color: #757575 !important;
+}
+
+h2, h3, h4, h5 {
+    color: #757575 !important;
+}
 /* About */
 
 .about {
     padding: 50px 0;
 }
+
 
 /* Services */
 

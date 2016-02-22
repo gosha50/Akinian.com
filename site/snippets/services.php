@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2> Web Design Services</h2>
+                    <h2><strong>  Web Design Services </strong> </h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
@@ -14,7 +14,7 @@
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
                                 <h4> 
-                                    <strong>Responsive Design</strong>
+                                    Responsive Design
                                 </h4>
                             </div>
                         </div>
@@ -25,7 +25,7 @@
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Custom CMS</strong>
+                                    Custom CMS
                                 </h4>
                                  
                             </div>
@@ -37,7 +37,7 @@
                                 <i class="fa fa-flask fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Comprehensive Testing</strong>
+                                    Comprehensive Testing
                                 </h4>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong> Administrative Backend</strong>
+                                    Administrative Backend
                                 </h4>
                             </div>
                         </div>
