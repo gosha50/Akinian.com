@@ -39,7 +39,7 @@
 </script>
 </head>
 
-<body>
+<body class="styles">
 <?php snippet('menu') ?>
     
     <!-- Header -->

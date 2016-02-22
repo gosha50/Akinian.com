@@ -26,17 +26,22 @@ body {
     margin: 0;
     padding: 0;
     font-size: 2.5em;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 /* Gliphs */
 .text-primary {
     color: #62BC73;
 }
+
+/* Background */
+
+.styles{
+    background-color: #fafafa;
+}
+
  
 /* Custom Button Styles */
- 
-
  
 
 
