@@ -204,6 +204,11 @@ hr.small {
     color: #757575 !important;
 }
 
+ h3 {
+    font-size: 34px;
+    line-height: 40px;
+}
+
 h2, h3, h4, h5 {
     color: #757575 !important;
 }
