@@ -29,7 +29,7 @@
 			</div>
 	
 
-			<p>Web-Developer with the toolkit. If you need a website. I will do everything in my power to deliver to you the artwork that will expand your buisness into cyberspace for the purpose to increase conversion rates. Drop me a line or two on my email <a href="mailto:hello@akinian.com">hello@akinian.com</a>, or give me a ring at <a href="tel:1-360-609-9987">1-360-609-9987.</a>  </p>
+			<p>Web-Developer. Need a website as cool as this one?  Send me an email to <a href="mailto:hello@akinian.com">hello@akinian.com</a>, or give me a call <a href="tel:1-360-609-9987">1-360-609-9987.</a>  </p>
 		</div>
 
 	</div>

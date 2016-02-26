@@ -23,8 +23,8 @@ margin: 0px;
     -moz-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.53);
     -ms-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.53);
     -o-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.53);
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.53);
-
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 2.103);
+    font-size: 1.5em;
 }
 
 
@@ -70,7 +70,6 @@ a {
 	
 	#main {
     	background-position: 100% center;
-    	font-size: 1.2em;
 
 	}	
 	.intro {
