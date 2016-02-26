@@ -139,7 +139,7 @@
 			"file": "site/templates/home-one.php",
 			"settings":
 			{
-				"buffer_size": 1090,
+				"buffer_size": 894,
 				"line_ending": "Unix"
 			}
 		},
@@ -147,7 +147,7 @@
 			"file": "assets/css/home-one.css",
 			"settings":
 			{
-				"buffer_size": 1175,
+				"buffer_size": 1174,
 				"line_ending": "Unix"
 			}
 		}
@@ -526,7 +526,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -652,15 +652,15 @@
 					"file": "site/templates/home-one.php",
 					"settings":
 					{
-						"buffer_size": 1090,
+						"buffer_size": 894,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								941,
-								941
+								802,
+								802
 							]
 						],
 						"settings":
@@ -757,7 +757,7 @@
 							"sublimelinter_wrap_find": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 0.0,
+						"translation.x": 708.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -768,15 +768,15 @@
 					"file": "assets/css/home-one.css",
 					"settings":
 					{
-						"buffer_size": 1175,
+						"buffer_size": 1174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								831,
-								831
+								684,
+								684
 							]
 						],
 						"settings":
@@ -875,7 +875,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 358.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
