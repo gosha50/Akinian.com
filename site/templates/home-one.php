@@ -29,7 +29,7 @@
 			</div>
 	
 
-			<p>Web-Developer. Need a website as cool as this one?  Send me an email to <a href="mailto:hello@akinian.com">hello@akinian.com</a>, or give me a call <a href="tel:1-360-609-9987">1-360-609-9987.</a>  </p>
+			<p>Web-Developer. Need a website as cool as this one?  Email me: <a href="mailto:hello@akinian.com">hello@akinian.com</a>, or call <a href="tel:1-360-609-9987">1-360-609-9987.</a>  </p>
 		</div>
 
 	</div>
