@@ -18,7 +18,7 @@
 
 <body>	
 
-	<div id="main" class="contact" style="background-image: url(<?php echo $page->file($page->hero_image())->url() ?>)">
+	<div id="main" class="contact" style="background-image: url(data:image/jpeg;base64,<?php echo $page->file($page->hero_image())->base64() ?>)">
 		
 		<div class="intro">
 			<div>
