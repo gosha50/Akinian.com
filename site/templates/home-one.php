@@ -112,7 +112,7 @@ a {
 			</div>
 	
 
-			<p>Web-Developer. Need a website as cool as this one?  Email me: <a href="mailto:hello@akinian.com">hello@akinian.com</a>, or call <a href="tel:1-360-609-9987">1-360-609-9987.</a>  </p>
+			<p>Web-App Developer. Need a website as cool as this one?  Email me: <a href="mailto:hello@akinian.com">hello@akinian.com</a>, or call <a href="tel:1-360-609-9987">1-360-609-9987.</a>  </p>
 		</div>
 
 	</div>
